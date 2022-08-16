@@ -1,0 +1,53 @@
+body{
+    background-color: antiquewhite;
+}
+h1{
+    color: black;
+text-align: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header{ 
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 100px;
+    text-align: center;
+    color: black;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+.column1{
+    
+    
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.column2
+{ 
+    
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.column3{
+    
+    
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.header {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+    flex-flow: row-reverse;
+    background-color: aquamarine;
+}
